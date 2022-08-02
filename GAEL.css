@@ -1,0 +1,165 @@
+*{
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    margin: 50px;
+    color: rgb(189, 47, 47);
+    border: rgb(233, 3, 3) 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+header nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(17, 82, 223);
+}
+
+
+header h2{
+    margin: 20px;
+    color: rgb(219, 18, 18);
+}
+
+/*{
+    margin-left: 350px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    width: 60%;
+    height: 350px;
+    border-radius: 50px;
+    background: #62cddb;
+    padding: 30px;
+} */
+
+.parent{
+    
+    width: 50%;
+    
+   /* border: black 1px solid;*/
+}
+
+.parent img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.parent .enfant{
+    width: 50%;
+}
+.parent .enfant h3{
+    color: rgb(20, 100, 220);
+    margin: 0px;
+    padding: 0px;
+    
+}
+ 
+   
+p
+{
+/*border: black 1px solid;*/
+/*background-color: rgb(171, 209, 221);*/
+border-radius: 20px;
+width: 40%;
+margin-left: 350px;
+padding: 20px;
+}
+
+.fils
+{   
+    border: rgb(247, 29, 29) 1px solid;
+    width: 40%;
+    /*background-color: rgb(153, 171, 212);*/
+    border-radius: 10px;
+    color: blue;
+    padding: 10px;
+
+ }
+.accueil
+{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+}
+
+.carte{
+    position:relative;
+    right: 430px;
+} 
+
+ .corps{
+    border: none ;
+ }
+
+ .photo {
+    border: rgb(22, 2, 2) 1px solid;
+    width: 40%;
+    background-color: rgb(35, 48, 48);
+    border-radius: 10px;
+    color: rgb(253, 253, 253);
+    padding: 10px;
+    margin-left: 5px;
+
+ }
+ h3{
+    border: rgb(22, 2, 2) 1px solid;
+    margin: 40px;
+    color: rgb(253, 253, 253);
+    background-color: rgb(16, 134, 212);
+    padding: 20px;
+    width: 70%;
+    margin-bottom: 70px;
+    border-radius: 10px;
+}
+h4{
+   /* border: rgb(22, 2, 2) 1px solid;*/
+    margin: 40px;
+    color: rgb(3, 3, 3);
+    /*backgroud-color: rgb(27, 75, 107);*/
+    padding: 30px;
+    width: 60%;
+    margin-bottom: 90px;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+}
+.design{
+    border: rgb(22, 2, 2) 1px solid;
+    width: 40%;
+    background-color: rgb(74, 48, 187);
+    border-radius: 10px;
+    color: rgb(253, 253, 253);
+    padding: 10px;
+    margin-left: 5px;
+}
+
+
+ /* img{
+    border: black 1px solid;
+    border-radius: 10px;
+}
+.img{
+    padding-left: 40px;
+} */
+ 
